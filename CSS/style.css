@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+/* =============================================================================== */
+body {
+    background: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+}
+.item-container{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.item-container h2{
+    font-size: 40px;
+    color: #17A2B8;
+}
+.form-control{
+    background-color: #24353f;
+    color: #fff;
+    border: 1px solid #ced4da;
+}
+
+.form-control:focus{
+    background-color: #24353f;
+    color: #fff;
+    box-shadow: 0 0 0 0 transparent !important;
+}
+.form-control::placeholder{
+    color: rgb(182, 182, 182) !important;
+}
+.btn-outline-info{
+    --bs-btn-color: #17a2b8;
+    --bs-btn-border-color: #17a2b8;
+    --bs-btn-hover-color: #fff;
+}
+.item-container p{
+    color: #fff;
+
+}
+.item-container a{
+    color: #fff;
+    text-decoration: none;
+}
+.item-container a:hover{
+    text-decoration: underline;
+}
+.navbar-header{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    left: 0;
+    right: 0;
+}
+.nav-item h2{
+    font-size: 20px;
+    color: #fff;
+}
