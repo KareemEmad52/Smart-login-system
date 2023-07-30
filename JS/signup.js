@@ -23,7 +23,7 @@ signUpBtn.addEventListener('click',function (){
                 addUser();
                 inCorrect.innerHTML = `<span class="text-success m-3">Success</span>`
                 clearForm();
-                
+                signUpBtn.setAttribute("href",'../index.html')
             } else {
                 inCorrect.innerHTML = `<span class="text-danger m-3">Email not valid</span>`
             }
